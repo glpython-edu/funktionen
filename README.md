@@ -8,10 +8,13 @@ Lernweg für das Grundlagenfach Informatik am Gymnasium (2. Jahr). Die Etappen w
 
 Zum Programmieren: [glpython-IDE](https://glpython-edu.github.io/)
 
+---
+
+Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) – Cédric Vogel. Sie dürfen das Material teilen und bearbeiten, wenn Sie den Urheber nennen und Ihre Bearbeitung unter derselben Lizenz weitergeben. Die Werkzeuge (glpython) stehen unter der MIT-Lizenz.
+
 <!--
 Vor der Veröffentlichung (Repository ist noch privat):
 - Repository auf «public» stellen.
-- Lizenz und Freigabe mit der Schule klären (LICENSE-Datei ergänzen).
 - In jeder freigegebenen Etappe `version: 1.0.0` setzen.
 
 Aktualisieren aus dem privaten Projekt (nur freigegebene Etappen):

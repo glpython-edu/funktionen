@@ -1,6 +1,5 @@
 <!--
 author:   Cédric Vogel
-email:    cedric.vogel@edubs.ch
 version:  0.1.0
 language: de
 narrator: Deutsch Female

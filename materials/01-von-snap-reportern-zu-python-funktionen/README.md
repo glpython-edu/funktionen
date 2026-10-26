@@ -188,10 +188,8 @@ Um anzuzeigen, zu welchem Wert ein Ausdruck ausgewertet wird, schreiben wir nich
 [    ( )           (X)           ] `3 + 2`
 [    (X)           ( )           ] `3.2`
 [    ( )           (X)           ] `7 / 4`
-[    (X)           ( )           ] `42`
 [    ( )           (X)           ] `5 ** 2`
 [    (X)           ( )           ] `-1`
-[    ( )           (X)           ] `3 * 10 - 2`
 [    ( )           (X)           ] `7 * 7 == 49`
 [    (X)           ( )           ] `True`
 

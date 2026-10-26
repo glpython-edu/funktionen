@@ -27,6 +27,7 @@ comment:  Gemeinsame Makros und Stile der Einheit «Funktionen – vom Aufruf zu
   let input = `@input`.trim()
   if (input.includes(",")) {
     send.lia("Hinweis: In Python schreibt man Dezimalzahlen mit einem Punkt, z. B. 1.75 statt 1,75.", [], false)
+    "LIA: wait"
   } else {
     input == "@0"
   }

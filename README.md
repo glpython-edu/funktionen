@@ -12,6 +12,8 @@ Zum Programmieren: [glpython-IDE](https://glpython-edu.github.io/)
 
 Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) – Cédric Vogel. Sie dürfen das Material teilen und bearbeiten, wenn Sie den Urheber nennen und Ihre Bearbeitung unter derselben Lizenz weitergeben. Die Werkzeuge (glpython) stehen unter der MIT-Lizenz.
 
+Material und Werkzeuge wurden mit Unterstützung von KI (Claude) erstellt – als Velo, nicht als E-Trottinett: Inhalte, Aufgaben und Entscheidungen stammen von der Lehrperson und wurden von ihr geprüft.
+
 <!--
 Vor der Veröffentlichung (Repository ist noch privat):
 - Repository auf «public» stellen.

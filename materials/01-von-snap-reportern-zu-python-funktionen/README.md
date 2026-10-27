@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.0.0
+version:  1.1.0
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -1303,6 +1303,3 @@ Mit `konst` aus dem Codeblock und dem Aufruf `konst(1 / 0)`:
 Dasselbe gilt für `konst(k(0))` mit der Funktion `k` aus Aufgabe 3 (`def k(x): return x + k(x + 1)`): In Python ein `RecursionError`, beim unausgewerteten Einsetzen `1`.
 
 </details>
-
-> [!TIP] Noch mehr?
-> Weitere Vertiefungen werden im Lauf der Einheit freigeschaltet.

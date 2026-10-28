@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.3.0
+version:  1.4.0
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -474,15 +474,15 @@ Dasselbe gilt für die Lösungen zum Aufklappen: Wer sie vor einem ernsthaften e
 
 Sieben Aufgaben. Sie beginnen im Unterricht und arbeiten zuhause weiter.
 
-| Aufgabe | Worum es geht | ca. |
-|---|---|---|
-| 1 | Vorhersagen | 20′ |
-| 2 | Zwei Strategien | 10′ |
-| 3 | Was geht hier schief? | 10′ |
-| 4 | Übersetzen und prüfen 📌 | 25′ |
-| 5 | Kreis mit Durchmesser | 10′ |
-| 6 | Vom Snap!-Reporter zur Python-Funktion 📌 | 15′ |
-| 7 | Mit KI üben – Velo statt E-Trottinett | 10′ |
+| Aufgabe | Worum es geht |
+|---|---|
+| 1 | Vorhersagen |
+| 2 | Zwei Strategien |
+| 3 | Was geht hier schief? |
+| 4 | Übersetzen und prüfen 📌 |
+| 5 | Kreis mit Durchmesser |
+| 6 | Vom Snap!-Reporter zur Python-Funktion 📌 |
+| 7 | Mit KI üben – Velo statt E-Trottinett |
 
 ### Aufgabe 1: Vorhersagen
 

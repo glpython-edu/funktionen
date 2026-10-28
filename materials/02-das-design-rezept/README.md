@@ -518,13 +518,13 @@ Dasselbe gilt für die Lösungen zum Aufklappen: Wer sie vor einem ernsthaften e
 
 Fünf Aufgaben. Sie beginnen im Unterricht und arbeiten zuhause weiter.
 
-| Aufgabe | Worum es geht | ca. |
-|---|---|---|
-| 1 | Doctests lesen | 15′ |
-| 2 | Dauer in Sekunden | 15′ |
-| 3 | Rezept mit Lücken 📌 | 20′ |
-| 4 | Abstand und Taxi-Abstand 📌 | 35′ |
-| 5 | Wer liegt falsch? | 15′ |
+| Aufgabe | Worum es geht |
+|---|---|
+| 1 | Doctests lesen |
+| 2 | Dauer in Sekunden |
+| 3 | Rezept mit Lücken 📌 |
+| 4 | Abstand und Taxi-Abstand 📌 |
+| 5 | Wer liegt falsch? |
 
 ### Aufgabe 1: Doctests lesen
 

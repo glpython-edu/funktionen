@@ -240,7 +240,8 @@ Jetzt kennen Sie alles, was es für das Rezept braucht. Wir gehen es an einer Au
 
 **Aufgabe:** «Schreiben Sie eine Funktion, die den Schnitt von drei Noten berechnet.»
 
-Das Design-Rezept:
+<details>
+<summary>Das Design-Rezept</summary>
 
 1. Wählen Sie einen **Namen**.
 2. Bestimmen Sie die **Parameter**.
@@ -248,6 +249,8 @@ Das Design-Rezept:
 4. Überlegen Sie **Beispiele**.
 5. Schreiben Sie den **Rumpf**.
 6. **Testen** Sie.
+
+</details>
 
 </div>
 
@@ -817,7 +820,8 @@ Das Ziel dieser Aufgabe ist es, zwei Funktionen ganz selbständig nach dem Desig
 
 <div class="kontext">
 
-Das Design-Rezept:
+<details open>
+<summary>Das Design-Rezept</summary>
 
 1. Wählen Sie einen **Namen**.
 2. Bestimmen Sie die **Parameter**.
@@ -825,6 +829,8 @@ Das Design-Rezept:
 4. Überlegen Sie **Beispiele**.
 5. Schreiben Sie den **Rumpf**.
 6. **Testen** Sie.
+
+</details>
 
 </div>
 

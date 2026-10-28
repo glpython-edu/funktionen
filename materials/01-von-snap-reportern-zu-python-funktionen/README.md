@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.1.0
+version:  1.2.0
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -1228,7 +1228,7 @@ average(3, 5)  →  (3 + 5) / 2  →  8 / 2  →  4.0
 
 Das Ziel dieser Aufgabe ist es, eine KI als Velo zu benutzen: Sie erzeugt Übungen und gibt Rückmeldung, auswerten tun Sie selbst.
 
-Öffnen Sie Copilot mit Ihrem Schulkonto und lassen Sie sich drei neue Ausdrücke geben. Kopieren Sie dazu diese Anfrage:
+Öffnen Sie Copilot mit Ihrem Schulkonto und lassen Sie sich drei neue Ausdrücke geben. Kopieren <i aria-hidden="true" class="icon icon-copy"></i> Sie dazu diese Anfrage:
 
 ```text
 Gib mir drei Python-Ausdrücke zum Auswerten von Hand, in denen die
@@ -1243,7 +1243,7 @@ Werten Sie die drei Ausdrücke Schritt für Schritt aus:
 ```
 @Notiz
 
-Lassen Sie Copilot dann Ihre Ketten prüfen – aber ohne Lösung. Kopieren Sie Ihre Ketten hinter diese Anfrage:
+Lassen Sie Copilot dann Ihre Ketten prüfen – aber ohne Lösung. Kopieren <i aria-hidden="true" class="icon icon-copy"></i> Sie Ihre Ketten hinter diese Anfrage:
 
 ```text
 Hier sind meine Auswertungen, ein Schritt pro Zeile. Prüfe jeden

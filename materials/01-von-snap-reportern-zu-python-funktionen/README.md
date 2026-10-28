@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.2.0
+version:  1.3.0
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -467,6 +467,8 @@ So gehen Sie bei jeder Aufgabe vor:
 > **E-Trottinett in dieser Etappe:** eine Kette erzeugen lassen · eine Funktion übersetzen lassen (Aufgabe 4) · eine Aufgabe einfügen und die Antwort übernehmen.
 >
 > Wenn Sie eine KI benutzen: Copilot mit Ihrem Schulkonto – kostenlos für alle.
+
+Dasselbe gilt für die Lösungen zum Aufklappen: Wer sie vor einem ernsthaften eigenen Versuch liest, fährt E-Trottinett. Niemand kontrolliert das – Sie betrügen damit nur sich selbst, und in der Prüfung gibt es nichts zum Aufklappen.
 
 ## Arbeitsphase
 

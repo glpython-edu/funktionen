@@ -512,6 +512,8 @@ Scheitert ein Test? Prüfen Sie zuerst das Beispiel: Stimmt es, wenn Sie es aus 
 >
 > Wenn Sie eine KI benutzen: Copilot mit Ihrem Schulkonto – kostenlos für alle.
 
+Dasselbe gilt für die Lösungen zum Aufklappen: Wer sie vor einem ernsthaften eigenen Versuch liest, fährt E-Trottinett. Niemand kontrolliert das – Sie betrügen damit nur sich selbst, und in der Prüfung gibt es nichts zum Aufklappen.
+
 ## Arbeitsphase
 
 Fünf Aufgaben. Sie beginnen im Unterricht und arbeiten zuhause weiter.

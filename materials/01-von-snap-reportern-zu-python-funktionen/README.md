@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.4.0
+version:  1.5.0
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -770,10 +770,10 @@ h(x) = (x + 2) * (x - 1)
 
 </div>
 
-Werten Sie `h(f(g(b)) - 50)` noch einmal aus – diesmal aber anders: Setzen Sie Argumente jeweils **unausgewertet** in den Rumpf ein. Beispiel für diese Strategie:
+Werten Sie `h(f(g(b)) - 50)` noch einmal aus – diesmal aber anders: Setzen Sie Argumente jeweils **unausgewertet** in den Rumpf ein. Beispiel für diese Strategie (*nicht die Python-Strategie*):
 
 ```text
-f(a + 2)  →  2 * (a + 2) + 1  →  …
+f(g(a))  →  2 * g(a) + 1  →  2 * (a ** 2) + 1  →  …
 ```
 
 Schreiben Sie die Kette im Notizfeld (oder auf Papier), so weit Sie kommen.

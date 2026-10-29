@@ -36,8 +36,9 @@ comment:  Gemeinsame Makros und Stile der Einheit «Funktionen – vom Aufruf zu
 
 @Code.erkunden: @GLPython.eval(features=run,repl,visualize,ide @0)
 @Code.rezept: @GLPython.eval(features=run,repl,visualize,tests,ide @0)
+@Code.rezept3: @GLPython.eval(features=run,repl,visualize,tests,ide,coverage @0)
 @Code.pruefung: @GLPython.eval(features=run @0)
-@Code.voll: @GLPython.eval(@0)
+@Code.voll: @GLPython.eval(features=run,repl,visualize,tests,ide,export,coverage @0)
 @Code.demo: @GLPython.visual(large @0)
 @Code.anschauen: @GLPython.visual(features=visualize @0)
 
@@ -128,9 +129,10 @@ Welche glpython-Funktionen sichtbar sind, folgt dem Lernweg (`journal.md` → `#
 | Makro | Wo | Sichtbar |
 |---|---|---|
 | `@Code.erkunden` | Etappe 1 | Ausführen, REPL, Visualisieren, IDE-Link |
-| `@Code.rezept` | Etappen 2–5 | zusätzlich Tests |
+| `@Code.rezept` | Etappe 2 | zusätzlich Tests |
+| `@Code.rezept3` | Etappen 3–5 | zusätzlich die Abdeckung nach «Tests»: Zeilen, die kein Beispiel ausgeführt hat |
 | `@Code.pruefung` | Prüfungsprobe (Etappe 6) | nur Ausführen – wie auf exam.net |
-| `@Code.voll` | Etappe 7 | alles, inkl. →-Export |
+| `@Code.voll` | Etappe 7 | alles ausser «Zurücksetzen», inkl. →-Export und Abdeckung |
 | `@Code.demo` | 🎓-Folien | nur der Visualizer, grosse Schrift, nicht bearbeitbar, mit →-Export |
 | `@Code.anschauen` | Arbeitsphase | nur der Visualizer, normale Grösse, nicht bearbeitbar, **ohne** →-Export (z. B. nach Vorhersagen von Hand) |
 

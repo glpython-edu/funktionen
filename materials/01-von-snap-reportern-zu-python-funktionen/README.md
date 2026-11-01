@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.5.3
+version:  1.5.4
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -1222,7 +1222,7 @@ Prüfen Sie Ihre Beispiele in der REPL. Welchen Wert zeigt sie bei `average(3, 5
 average(3, 5)  →  (3 + 5) / 2  →  8 / 2  →  4.0
 ```
 
-**Warum `4.0` und nicht `4`?** In Python ergibt `/` **immer** eine Dezimalzahl, auch wenn die Division aufgeht: `8 / 2 → 4.0`. Snap! zeigt `4`, Python `4.0`. Für Python ist es trotzdem dieselbe Zahl: `average(3, 5) == 4 → 4.0 == 4 → True`. Probieren Sie es in der REPL aus. Wo Python Werte als Text vergleicht – bei den Doctests in Etappe 2 –, zählt aber die Schreibweise: Dort muss `4.0` stehen.
+**Warum `4.0` und nicht `4`?** In Python ergibt `/` **immer** eine Dezimalzahl, auch wenn die Division aufgeht: `8 / 2 → 4.0`. Snap! zeigt `4`, Python `4.0`. Für Python ist es trotzdem dieselbe Zahl: `average(3, 5) == 4 → 4.0 == 4 → True`. Probieren Sie es in der REPL aus.
 
 **************************************************
 

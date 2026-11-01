@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.5.0
+version:  1.5.1
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -306,7 +306,7 @@ Eine **Funktionsdefinition** hat einen **Namen**, einen oder mehrere **Parameter
 - **Rumpf** (gelb): @Baustein.Rumpf(x * x) – der Ausdruck, der beim Aufruf ausgewertet und zurückgegeben wird. In Etappe 3 lernen Sie Funktionen kennen, deren Rumpf aus mehreren Zeilen besteht.
 
     {{4}}
-- **Argument** (violett): @Baustein.Argument(3) – der Wert, der beim Aufruf für den Parameter eingesetzt wird.
+- **Argument** (violett): @Baustein.Argument(3) – der Ausdruck, dessen Wert beim Aufruf für den Parameter eingesetzt wird.
 
     {{5}}
 <div>

@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.0.2
+version:  2.0.0
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -194,9 +194,9 @@ def average(number1, number2):
     Gibt den Durchschnitt von number1 und number2 zurück.
 
     >>> average(3, 5)
-    4
-    >>> average(4, 4)
     4.0
+    >>> average(2, 5)
+    3
     >>> average(4, 5)
     4.5
     """
@@ -211,9 +211,9 @@ def average(number1, number2):
 
 ---
 
-Ein Beispiel scheitert. «Tests» zeigt, was im Beispiel steht (`4`) und was Python berechnet hat (`4.0`). Solche Meldungen gehören zum Arbeiten – sie zeigen genau, wo Funktion und Beispiel nicht zusammenpassen. Bestandene Beispiele erscheinen nicht einzeln – «Tests» zählt sie nur.
+Ein Beispiel scheitert. «Tests» zeigt, was im Beispiel steht (`3`) und was Python berechnet hat (`3.5`). Solche Meldungen gehören zum Arbeiten – sie zeigen genau, wo Funktion und Beispiel nicht zusammenpassen. Bestandene Beispiele erscheinen nicht einzeln – «Tests» zählt sie nur.
 
-Korrigieren wir das Beispiel: Ersetzen Sie im Codeblock `4` durch `4.0` und drücken Sie nochmals «Tests». Jetzt bestehen alle drei.
+Korrigieren wir das Beispiel: Ersetzen Sie im Codeblock `3` durch `3.5` und drücken Sie nochmals «Tests». Jetzt bestehen alle drei.
 
 </div>
 
@@ -222,10 +222,7 @@ Korrigieren wir das Beispiel: Ersetzen Sie im Codeblock `4` durch `4.0` und drü
 
 ---
 
-**Zwei Regeln, damit Doctests richtig funktionieren:**
-
-- Nach `>>>` steht **immer ein Leerzeichen**: `>>> average(3, 5)`, nicht `>>>average(3, 5)`.
-- Doctest vergleicht die Anzeige, nicht den Wert: Für Python ist `4.0 == 4` zwar `True`, die REPL zeigt aber `4.0` – und genau das muss unter dem Aufruf stehen.
+**Eine Regel, damit Doctests richtig funktionieren:** Nach `>>>` steht **immer ein Leerzeichen**: `>>> average(3, 5)`, nicht `>>>average(3, 5)`.
 
 </div>
 
@@ -544,8 +541,8 @@ def schnitt(note1, note2):
     5
     >>> schnitt(5, 5.5)
     5.25
-    >>> schnitt(3, 6)
-    4.5
+    >>> schnitt(2, 6)
+    5.0
     >>> schnitt(6, 4)
     4.5
     """
@@ -555,14 +552,15 @@ def schnitt(note1, note2):
 Welche Beispiele scheitern?
 
 - [[ ]] `schnitt(4, 5)` mit `4.5`
-- [[X]] `schnitt(4, 6)` mit `5`
+- [[ ]] `schnitt(4, 6)` mit `5`
 - [[ ]] `schnitt(5, 5.5)` mit `5.25`
-- [[ ]] `schnitt(3, 6)` mit `4.5`
+- [[X]] `schnitt(2, 6)` mit `5.0`
 - [[X]] `schnitt(6, 4)` mit `4.5`
 **************************************************
 
-- `schnitt(4, 6)` ergibt `5.0`, nicht `5`. Der Wert ist gleich, aber Doctests vergleichen die Schreibweise – und `/` liefert immer eine Dezimalzahl.
+- `schnitt(2, 6)` ergibt `4.0`. Das Beispiel rechnet `2 + 6 / 2` – ohne Klammern kommt Punkt vor Strich.
 - `schnitt(6, 4)` ergibt `5.0`. Das Beispiel ist schlicht falsch ausgewertet.
+- `schnitt(4, 6)` ergibt `5.0`, das Beispiel sagt `5` – derselbe Wert, das Beispiel besteht.
 
 Prüfen Sie es mit «Tests» und lesen Sie, was im Beispiel steht und was Python berechnet hat:
 
@@ -577,8 +575,8 @@ def schnitt(note1, note2):
     5
     >>> schnitt(5, 5.5)
     5.25
-    >>> schnitt(3, 6)
-    4.5
+    >>> schnitt(2, 6)
+    5.0
     >>> schnitt(6, 4)
     4.5
     """

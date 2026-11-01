@@ -63,11 +63,11 @@ comment:  Fehler-Lexikon zur Einheit «Funktionen – vom Aufruf zur eigenen Spr
 >
 > ```text
 > Failed example:
->     average(3, 5)
+>     average(2, 5)
 > Expected:
->     4
+>     3
 > Got:
->     4.0
+>     3.5
 > ```
 @end
 

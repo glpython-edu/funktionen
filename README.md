@@ -5,6 +5,9 @@ Lernweg für das Grundlagenfach Informatik am Gymnasium (2. Jahr). Die Etappen w
 | Etappe | Thema | Lernweg |
 |---|---|---|
 | 1 | Von Snap!-Reportern zu Python-Funktionen | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/01-von-snap-reportern-zu-python-funktionen/README.md) |
+| 2 | Das Design-Rezept | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/02-das-design-rezept/README.md) |
+
+Nachschlagen: [Begriffe der Einheit](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/00-begriffe/README.md)
 
 Zum Programmieren: [glpython-IDE](https://glpython-edu.github.io/)
 

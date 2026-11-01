@@ -1,6 +1,7 @@
 <!--
 author:   Cédric Vogel
-version:  0.1.0
+version:  1.0.0
+license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
 
@@ -1030,5 +1031,54 @@ Bei `4.25` und `5.25` (und `3.25`, …) unterscheiden sie sich: `zeugnis_note_a(
 Der Grund: `round` rundet eine Zahl, die genau auf `.5` endet, auf die **gerade** Zahl – `round(8.5)` ergibt `8`, `round(9.5)` ergibt `10`. In halben Noten ist `4.25` genau `8.5` Halbe, `4.75` genau `9.5` Halbe. Deshalb rundet Version a mal ab, mal auf. Version b rechnet in halben Noten, addiert `0.5` und schneidet mit `// 1` die Nachkommastellen ab – das rundet immer auf, wie in der Schule.
 
 Die eigentliche Einsicht: **Doctests zeigen nur, was sie testen.** Beide Versionen bestehen dieselben drei Beispiele, weil keines ein Grenzfall ist. Grenzfälle gehören deshalb ins Rezept – als Beispiele, die Sie bewusst wählen.
+
+</details>
+
+### 🧩 Zweite Knacknuss: Wie viele Boote?
+
+Für einen Ausflug im Klassenlager werden Ruderboote gemietet. Jedes Boot hat gleich viele Plätze, und niemand soll am Ufer bleiben. Wie viele Boote braucht es?
+
+Name, Parameter und Zweck sind gegeben. Schreiben Sie zuerst Beispiele als Doctests – darunter mindestens einen Fall, in dem die Boote genau voll werden –, dann den Rumpf. Ganze Zahlen und die Rechenzeichen `+`, `-`, `*`, `//` und `%` genügen.
+
+<details>
+<summary>Tipp</summary>
+
+`personen // plaetze` rundet ab: `13 // 4` ergibt `3` – ein Boot zu wenig. Liegt es nahe, einfach 1 dazuzuzählen? Prüfen Sie diese Idee an `anzahl_boote(12, 4)`.
+
+</details>
+
+```python
+def anzahl_boote(personen, plaetze):
+    """
+    Gibt zurück, wie viele Boote mit je plaetze Plätzen es braucht,
+    damit alle personen Platz haben.
+    """
+```
+@Code.rezept
+
+<details>
+<summary>Lösung</summary>
+
+```python
+def anzahl_boote(personen, plaetze):
+    """
+    Gibt zurück, wie viele Boote mit je plaetze Plätzen es braucht,
+    damit alle personen Platz haben.
+
+    >>> anzahl_boote(13, 4)
+    4
+    >>> anzahl_boote(12, 4)
+    3
+    >>> anzahl_boote(1, 4)
+    1
+    >>> anzahl_boote(0, 4)
+    0
+    """
+    return (personen + plaetze - 1) // plaetze
+```
+
+Mit `plaetze - 1` zusätzlichen Plätzen springt `//` genau dann auf ein weiteres Boot, wenn noch mindestens eine Person übrig ist: `(13 + 3) // 4 = 4`, aber `(12 + 3) // 4 = 3`.
+
+Die naheliegende Formel `personen // plaetze + 1` besteht `anzahl_boote(13, 4)` und `anzahl_boote(1, 4)` – und scheitert an `anzahl_boote(12, 4)` (4 statt 3) und `anzahl_boote(0, 4)` (1 statt 0). Wieder dieselbe Einsicht wie bei der ersten Knacknuss: Erst der Grenzfall «genau voll» deckt den Fehler auf.
 
 </details>

@@ -26,6 +26,7 @@ Aktualisieren aus dem privaten Projekt (nur freigegebene Etappen):
   rsync -a --delete ../teaching-agent/materials/00-fehler-lexikon/ materials/00-fehler-lexikon/
   rsync -a --delete ../teaching-agent/materials/00-makros/ materials/00-makros/
   rsync -a --delete ../teaching-agent/materials/00-begriffe/ materials/00-begriffe/
+  cp ../teaching-agent/materials/00-auswerter/parser.py materials/00-auswerter/parser.py   (nur parser.py: parser_tests.py und die Gerüste bleiben privat)
   rsync -a --delete ../teaching-agent/materials/01-von-snap-reportern-zu-python-funktionen/ materials/01-von-snap-reportern-zu-python-funktionen/
   rsync -a --delete ../teaching-agent/materials/02-das-design-rezept/ materials/02-das-design-rezept/
 -->

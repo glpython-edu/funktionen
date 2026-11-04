@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  2.0.0
+version:  2.0.1
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -183,7 +183,7 @@ Genau diese zwei Zeilen kann man in die Beschreibung einer Funktion schreiben �
 ---
 
     {{1}}
-**Beispiel:** Drücken Sie «Tests». Was meldet Python?
+**Beispiel:** Wir drücken «Tests». Was meldet Python?
 
     {{1}}
 <div>
@@ -213,7 +213,7 @@ def average(number1, number2):
 
 Ein Beispiel scheitert. «Tests» zeigt, was im Beispiel steht (`3`) und was Python berechnet hat (`3.5`). Solche Meldungen gehören zum Arbeiten – sie zeigen genau, wo Funktion und Beispiel nicht zusammenpassen. Bestandene Beispiele erscheinen nicht einzeln – «Tests» zählt sie nur.
 
-Korrigieren wir das Beispiel: Ersetzen Sie im Codeblock `3` durch `3.5` und drücken Sie nochmals «Tests». Jetzt bestehen alle drei.
+Korrigieren wir das Beispiel: Wir ersetzen im Codeblock `3` durch `3.5` und drücken nochmals «Tests». Jetzt bestehen alle drei.
 
 </div>
 

@@ -6,6 +6,7 @@ Lernweg für das Grundlagenfach Informatik am Gymnasium (2. Jahr). Die Etappen w
 |---|---|---|
 | 1 | Von Snap!-Reportern zu Python-Funktionen | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/01-von-snap-reportern-zu-python-funktionen/README.md) |
 | 2 | Das Design-Rezept | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/02-das-design-rezept/README.md) |
+| 3 | Lokale Variablen, Listen – und Wirkung | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/03-lokale-variablen-listen-und-wirkung/README.md) |
 
 Nachschlagen: [Begriffe der Einheit](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/00-begriffe/README.md)
 
@@ -29,4 +30,5 @@ Aktualisieren aus dem privaten Projekt (nur freigegebene Etappen):
   cp ../teaching-agent/materials/00-auswerter/parser.py materials/00-auswerter/parser.py   (nur parser.py: parser_tests.py und die Gerüste bleiben privat)
   rsync -a --delete ../teaching-agent/materials/01-von-snap-reportern-zu-python-funktionen/ materials/01-von-snap-reportern-zu-python-funktionen/
   rsync -a --delete ../teaching-agent/materials/02-das-design-rezept/ materials/02-das-design-rezept/
+  rsync -a --delete ../teaching-agent/materials/03-lokale-variablen-listen-und-wirkung/ materials/03-lokale-variablen-listen-und-wirkung/
 -->

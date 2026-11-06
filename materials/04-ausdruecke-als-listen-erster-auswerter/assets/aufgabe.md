@@ -15,13 +15,13 @@ Wechseln Sie jetzt zum Tab **auswerter.py**. Im Docstring von `anwenden` steht f
 1. Drücken Sie «Tests». Sechs Beispiele scheitern mit «Got nothing» – lesen Sie eine Meldung genau.
 2. Beim Operator `-` fehlt nur noch etwas: Die Zeile `if op == "-":` steht schon, aber nach dem `return` fehlt der Ausdruck. Ergänzen Sie ihn und drücken Sie wieder «Tests» – jetzt scheitern nur noch fünf.
 3. Ergänzen Sie in `anwenden` eine `if`-Zeile pro Operator, bis alle Tests bestehen.
-4. Schreiben Sie zum Schluss in den Docstring von `berechnen` für jeden neuen Operator ein eigenes Beispiel, zum Beispiel `berechnen("9 - 4")`, und prüfen Sie mit «Tests».
+4. Schreiben Sie zum Schluss in den Docstring von `berechnen` für jeden neuen Operator ein eigenes Beispiel, zum Beispiel `berechnen("9 - 4")`, und prüfen Sie, indem Sie auf «Tests» klicken.
 
 «Got nothing» heisst: Die Funktion hat `None` zurückgegeben – für diesen Operator gibt es in `anwenden` noch keine passende `if`-Zeile.
 
 ## Noch nicht fertig?
 
-Die IDE merkt sich Ihre Arbeit nur in diesem Browser – auf einem anderen Gerät oder nach einiger Zeit ist sie nicht mehr da. Drücken Sie deshalb am Ende jeder Lektion «Teilen» und speichern Sie den Link in Ihren eigenen Notizen in OneNote (nicht in der Zeile für die Abgabe). In der nächsten Lektion öffnen Sie die IDE über diesen Link. Kopieren Sie nicht die Adresszeile des Browsers: Dieser Link funktioniert nur in Ihrem eigenen Browser.
+Die IDE merkt sich Ihre Arbeit nur in diesem Browser – auf einem anderen Gerät oder nach einiger Zeit ist sie nicht mehr da. Drücken Sie deshalb am Ende jeder Lektion «Teilen» und speichern Sie den Link in Ihren eigenen Notizen in OneNote (nicht in der Zeile für die Abgabe). In der nächsten Lektion öffnen Sie die IDE über diesen Link.
 
 ## 📌 Abgabe
 

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" width="134.4" height="139.2" viewBox="0 0 134.4 139.2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+<title>['-', 10, ['-', 4, 3]]</title>
+<rect x="0.5" y="0.5" width="133.4" height="138.2" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+<line x1="55.2" y1="37.6" x2="31.2" y2="56.8" stroke="#6B7280" stroke-width="1"/>
+<line x1="55.2" y1="37.6" x2="84" y2="56.8" stroke="#6B7280" stroke-width="1"/>
+<line x1="84" y1="82.4" x2="60" y2="101.6" stroke="#6B7280" stroke-width="1"/>
+<line x1="84" y1="82.4" x2="108" y2="101.6" stroke="#6B7280" stroke-width="1"/>
+<rect x="41.3" y="12.5" width="27.8" height="24.6" rx="4" fill="#F3F4F6" stroke="#6B7280" stroke-width="1"/>
+<text x="55.2" y="24.8" dominant-baseline="central" text-anchor="middle" fill="#1F3A5F" font-weight="600" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-</text>
+<rect x="12.5" y="57.3" width="37.4" height="24.6" rx="4" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="31.2" y="69.6" dominant-baseline="central" text-anchor="middle" fill="#0F5F7A" textLength="19.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">10</text>
+<rect x="70.1" y="57.3" width="27.8" height="24.6" rx="4" fill="#F3F4F6" stroke="#6B7280" stroke-width="1"/>
+<text x="84" y="69.6" dominant-baseline="central" text-anchor="middle" fill="#1F3A5F" font-weight="600" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-</text>
+<rect x="46.1" y="102.1" width="27.8" height="24.6" rx="4" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="60" y="114.4" dominant-baseline="central" text-anchor="middle" fill="#0F5F7A" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">4</text>
+<rect x="94.1" y="102.1" width="27.8" height="24.6" rx="4" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="108" y="114.4" dominant-baseline="central" text-anchor="middle" fill="#0F5F7A" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">3</text>
+</svg>

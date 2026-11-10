@@ -120,6 +120,18 @@ comment:  Fehler-Lexikon zur Einheit «Funktionen – vom Aufruf zur eigenen Spr
 > zeige_schnitt([4, 5, 4.5]) + 1   # zeigt 4.5 an, dann TypeError: … 'NoneType' and 'int'
 > ```
 @end
+
+@Fehler.ListeStattZahl
+> **`TypeError: unsupported operand type(s) for +: 'int' and 'list'`** – Eine Liste steht dort, wo eine Zahl erwartet wird.
+>
+> **Was bedeutet das?** Ein Operator wie `+` oder `*` rechnet mit zwei Zahlen. Ist einer der beiden Werte eine Liste, weiss Python nicht, was es rechnen soll. Die Meldung nennt die Typen der beiden Werte: links `int` (eine ganze Zahl), rechts `list`.
+>
+> **Typische Ursache:** Ein Teil eines Ausdrucksbaums ist selbst noch ein Baum, also noch nicht ausgewertet – zum Beispiel `['*', 3, 4]` in `['+', 2, ['*', 3, 4]]`. Ein Auswerter, der nur flache Bäume kann, rechnet dann `2 + ['*', 3, 4]`.
+>
+> ```python
+> operator_anwenden('+', 2, ['*', 3, 4])   # TypeError: … 'int' and 'list'
+> ```
+@end
 -->
 
 # Fehler-Lexikon
@@ -161,3 +173,7 @@ Hier finden Sie die Fehlermeldungen, die Ihnen in dieser Einheit begegnen. Pytho
 ## Rechnen mit None (TypeError … NoneType)
 
 @Fehler.NoneType
+
+## Liste statt Zahl (TypeError … 'int' and 'list')
+
+@Fehler.ListeStattZahl

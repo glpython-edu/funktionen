@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  2.0.3
+version:  2.0.4
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female

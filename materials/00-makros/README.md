@@ -41,6 +41,9 @@ comment:  Gemeinsame Makros und Stile der Einheit «Funktionen – vom Aufruf zu
 @Code.voll: @GLPython.eval(features=run,repl,visualize,tests,ide,export,coverage @0)
 @Code.demo: @GLPython.visual(large @0)
 @Code.anschauen: @GLPython.visual(features=visualize @0)
+@Code.auswerter: @GLPython.eval(features=run,repl,visualize,tests,ide,coverage,listtree,tree https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/00-auswerter/parser.py @0)
+@Code.auswerter.demo: @GLPython.visual(large features=visualize,export,listtree,tree https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/00-auswerter/parser.py @0)
+@Code.auswerter.anschauen: @GLPython.visual(features=visualize,listtree,tree https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/00-auswerter/parser.py @0)
 
 @Notiz: @Notiz.block(@uid)
 
@@ -135,6 +138,9 @@ Welche glpython-Funktionen sichtbar sind, folgt dem Lernweg (`journal.md` → `#
 | `@Code.voll` | Etappe 7 | alles ausser «Zurücksetzen», inkl. →-Export und Abdeckung |
 | `@Code.demo` | 🎓-Folien | nur der Visualizer, grosse Schrift, nicht bearbeitbar, mit →-Export |
 | `@Code.anschauen` | Arbeitsphase | nur der Visualizer, normale Grösse, nicht bearbeitbar, **ohne** →-Export (z. B. nach Vorhersagen von Hand) |
+| `@Code.auswerter` | Etappen 4–5: Aufgaben und 🎓-Folien mit REPL oder «Tests» | wie `rezept3`, dazu Listen als Baum (`listtree`) und der Modus «Baum» (`tree`); `parser.py` ist als Bibliothek geladen |
+| `@Code.auswerter.demo` | Etappen 4–5: 🎓-Folien | wie `demo`, dazu `listtree` und «Baum», mit `parser.py`; `@Code.auswerter.demo(tree)` startet im Modus «Baum» |
+| `@Code.auswerter.anschauen` | Etappen 4–5: Lösungen | wie `anschauen`, dazu `listtree` und «Baum», mit `parser.py` |
 
 Weitere Optionen werden angehängt, z. B. der Startmodus oder Bibliotheken: `@Code.erkunden(box)`, `@Code.rezept(https://…/parser.py)`. Der →-Export ist für Lernende in den Etappen 1–6 bewusst ausgeblendet.
 

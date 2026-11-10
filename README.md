@@ -7,6 +7,7 @@ Lernweg für das Grundlagenfach Informatik am Gymnasium (2. Jahr). Die Etappen w
 | 1 | Von Snap!-Reportern zu Python-Funktionen | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/01-von-snap-reportern-zu-python-funktionen/README.md) |
 | 2 | Das Design-Rezept | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/02-das-design-rezept/README.md) |
 | 3 | Lokale Variablen, Listen – und Wirkung | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/03-lokale-variablen-listen-und-wirkung/README.md) |
+| 4 | Ausdrücke als Listen – ein erster Auswerter | [öffnen](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/04-ausdruecke-als-listen-erster-auswerter/README.md) |
 
 Nachschlagen: [Begriffe der Einheit](https://liascript.github.io/course/?https://raw.githubusercontent.com/glpython-edu/funktionen/main/materials/00-begriffe/README.md)
 
@@ -24,6 +25,7 @@ Vor der Veröffentlichung (Repository ist noch privat):
 - In jeder freigegebenen Etappe `version: 1.0.0` setzen.
 
 Aktualisieren aus dem privaten Projekt (nur freigegebene Etappen):
+  Vorher im privaten Projekt: npm run check (Bäume, IDE-Links, veröffentlichte Dateien).
   rsync -a --delete ../teaching-agent/materials/00-fehler-lexikon/ materials/00-fehler-lexikon/
   rsync -a --delete ../teaching-agent/materials/00-makros/ materials/00-makros/
   rsync -a --delete ../teaching-agent/materials/00-begriffe/ materials/00-begriffe/
@@ -31,4 +33,5 @@ Aktualisieren aus dem privaten Projekt (nur freigegebene Etappen):
   rsync -a --delete ../teaching-agent/materials/01-von-snap-reportern-zu-python-funktionen/ materials/01-von-snap-reportern-zu-python-funktionen/
   rsync -a --delete ../teaching-agent/materials/02-das-design-rezept/ materials/02-das-design-rezept/
   rsync -a --delete ../teaching-agent/materials/03-lokale-variablen-listen-und-wirkung/ materials/03-lokale-variablen-listen-und-wirkung/
+  rsync -a --delete ../teaching-agent/materials/04-ausdruecke-als-listen-erster-auswerter/ materials/04-ausdruecke-als-listen-erster-auswerter/
 -->

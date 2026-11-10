@@ -8,16 +8,16 @@ Ihr Auswerter kann bisher nur `+`. In dieser Aufgabe bringen Sie ihm alle Rechen
 - **auswerter.py** – Ihre Datei. Hier arbeiten Sie. «Ausführen», «Tests» und «Visualisieren» gelten immer für diese Datei, auch wenn gerade ein anderer Tab offen ist.
 - **parser.py** – die Bibliothek mit `parse`. Sie können sie nur lesen, und Sie müssen nicht wissen, wie sie funktioniert.
 
-Wechseln Sie jetzt zum Tab **auswerter.py**. Im Docstring von `anwenden` steht für jeden neuen Operator schon ein Beispiel – diese Tests scheitern noch.
+Wechseln Sie jetzt zum Tab **auswerter.py**. Im Docstring von `operator_anwenden` steht für jeden neuen Operator schon ein Beispiel – diese Tests scheitern noch.
 
 ## So gehen Sie vor
 
 1. Drücken Sie «Tests». Sechs Beispiele scheitern mit «Got nothing» – lesen Sie eine Meldung genau.
 2. Beim Operator `-` fehlt nur noch etwas: Die Zeile `if op == "-":` steht schon, aber nach dem `return` fehlt der Ausdruck. Ergänzen Sie ihn und drücken Sie wieder «Tests» – jetzt scheitern nur noch fünf.
-3. Ergänzen Sie in `anwenden` eine `if`-Zeile pro Operator, bis alle Tests bestehen.
+3. Ergänzen Sie in `operator_anwenden` eine `if`-Zeile pro Operator, bis alle Tests bestehen.
 4. Schreiben Sie zum Schluss in den Docstring von `berechnen` für jeden neuen Operator ein eigenes Beispiel, zum Beispiel `berechnen("9 - 4")`, und prüfen Sie, indem Sie auf «Tests» klicken.
 
-«Got nothing» heisst: Die Funktion hat `None` zurückgegeben – für diesen Operator gibt es in `anwenden` noch keine passende `if`-Zeile.
+«Got nothing» heisst: Die Funktion hat `None` zurückgegeben – für diesen Operator gibt es in `operator_anwenden` noch keine passende `if`-Zeile.
 
 ## Noch nicht fertig?
 

@@ -32,7 +32,7 @@ def parse(text):
     >>> parse("2 < 3")
     ['<', 2, 3]
 
-    Vorrang, Klammern und Gruppierung wie in Python:
+    Vorrang, Klammern und Gruppierung gelten wie in Python.
 
     >>> parse("2 + 3 * 4")
     ['+', 2, ['*', 3, 4]]
@@ -43,7 +43,7 @@ def parse(text):
     >>> parse("1 + 1 == 2")
     ['==', ['+', 1, 1], 2]
 
-    Zahlen sind schon ausgewertet, auch negative Zahlen und Dezimalzahlen:
+    Zahlen sind schon ausgewertet, auch negative Zahlen und Dezimalzahlen.
 
     >>> parse("42")
     42
@@ -52,7 +52,7 @@ def parse(text):
     >>> parse("1.5 + 2")
     ['+', 1.5, 2]
 
-    Was kein Ausdruck ist, wird abgelehnt:
+    Was kein Ausdruck ist, wird mit einem ValueError abgelehnt.
 
     >>> parse("x = 3")
     Traceback (most recent call last):

@@ -1,10 +1,10 @@
-# Ausblick: Der Auswerter rechnet weiter
+# Auswerter für beliebig grosse Bäume
 
 Dieses Projekt ist freiwillig und kein Prüfungsstoff. Es zeigt, wie der Auswerter aus Etappe 4 auch verschachtelte Bäume ausrechnet, zum Beispiel `['+', 2, ['*', 3, 4]]`.
 
 ## Das Projekt hat drei Tabs
 
-- **ausblick.md** – diese Anleitung. Sie können sie nur lesen.
+- **anleitung.md** – diese Anleitung. Sie können sie nur lesen.
 - **auswerter.py** – der Auswerter aus Etappe 4, mit allen Rechenoperatoren. Hier arbeiten Sie. «Ausführen», «Tests» und «Visualisieren» gelten immer für diese Datei, auch wenn gerade ein anderer Tab offen ist.
 - **parser.py** – die Bibliothek mit `parse`. Sie können sie nur lesen.
 

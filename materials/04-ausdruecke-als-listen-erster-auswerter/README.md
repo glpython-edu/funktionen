@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.0.0
+version:  1.0.1
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -284,7 +284,7 @@ An Adresse 1 steht der linke Teil: `2`. Der Operator steht an Adresse **0**.
 
 ---
 
-Auch Python selbst rechnet einen Ausdruck so aus, wie Ihr Programm das machen wird: von unten nach oben im Baum. Der Visualizer zeigt das im Modus «Baum» – jeder Schritt macht aus einem Teilbaum seinen Wert:
+Auch Python selbst rechnet einen Ausdruck so aus, wie Ihr Programm das machen wird: von unten nach oben im Baum. Der Visualizer zeigt das mit der Option «Ausdrücke als Bäume auswerten» – jeder Schritt macht aus einem Teilbaum seinen Wert:
 
 ```python
 x = 2 + 3 * 4

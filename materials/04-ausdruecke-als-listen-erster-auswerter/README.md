@@ -1,6 +1,6 @@
 <!--
 author:   Cédric Vogel
-version:  1.0.1
+version:  1.0.2
 license:  CC BY-SA 4.0
 language: de
 narrator: Deutsch Female
@@ -389,17 +389,30 @@ def operator_anwenden(op, x, y):
 
 ---
 
-✏️ **Kurzauftrag (2′):** Angenommen, der Auswerter kann `+` und `*`. Was passiert bei `berechnen("2 + 3 * 4")`?
+✏️ **Kurzauftrag (2′):** Das Gerüst von oben, ohne `berechnen`:
+
+```python
+def operator_anwenden(op, x, y):
+    if op == "+":
+        return x + y
+
+def auswerten(baum):
+    if ist_ausgewertet(baum):
+        return baum
+    return operator_anwenden(baum[0], baum[1], baum[2])
+```
+
+Was passiert bei `auswerten(['+', 2, ['*', 3, 4]])`?
 
 - [( )] `14`
-- [( )] `None`
+- [( )] `None`, weil `operator_anwenden` den Operator `*` nicht kennt
 - [(X)] eine Fehlermeldung
 **************************************************
 
-`parse` liefert `['+', 2, ['*', 3, 4]]`. `auswerten` gibt die drei Teile direkt an `operator_anwenden` weiter, also rechnet Python `2 + ['*', 3, 4]` – eine Zahl plus eine Liste:
+`auswerten` gibt die drei Teile direkt an `operator_anwenden` weiter, also rechnet Python `2 + ['*', 3, 4]` – eine Zahl plus eine Liste. Bis zum `*` kommt der Auswerter gar nicht:
 
 ```text
->>> berechnen("2 + 3 * 4")
+>>> auswerten(['+', 2, ['*', 3, 4]])
 TypeError: unsupported operand type(s) for +: 'int' and 'list'
 ```
 
